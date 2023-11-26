@@ -16,6 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head><title>Broken Link Checker</title></head>
       <body className={inter.className}>{children}</body>
     </html>
   )
